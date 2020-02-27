@@ -454,7 +454,7 @@
     .text {
         margin-top: 0;
         padding-left: 40px;
-        padding-right: 15px;
+        padding-right: 50%;
         font-size: 18px;
     }
     .paddiing-left {
