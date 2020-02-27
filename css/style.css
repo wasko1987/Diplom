@@ -417,7 +417,7 @@
     }
 
     .actions .content-element:nth-child(even) .number {
-        left: -35px;
+        left: -50px;
     }
 
     .footer-logo-text {
@@ -478,7 +478,7 @@
     .text {
         margin-top: 0;
         font-size: 18px;
-        padding-right: 30px;
+        padding-right: 40px;
     }
 
 }
@@ -544,12 +544,12 @@
         width: 600px;   
         margin-left: auto;    
         margin-right: 50px;
+        
     }
 
     .actions .content-element:nth-child(even) .element-text .text {   
         width: 600px;   
         margin-left: auto;    
-        margin-right: 50px;
     }
 
     .number {
@@ -564,6 +564,10 @@
 
     .actions .text {
         padding-left: 60px;
+    }
+
+    .actions .content-element:nth-child(even) .number {
+        left: -70px;
     }
 }
 
