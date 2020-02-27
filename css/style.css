@@ -437,21 +437,9 @@
         width: 100px;
     }
 
-    .be-active-h3 {
-        font-size: 50px;
-        margin-top: 145px;
-        margin-bottom: 10px;
-        padding-left: 40px;
-    }
 
-    .text {
-        margin-top: 0;
-        padding-left: 40px;
-        padding-right: 50%;
-        font-size: 18px;
-    }
     .paddiing-left {
-        padding-left: 50px;
+        padding-left: 40px;
     }
 
     .download {
@@ -480,6 +468,19 @@
         top: 25px;
         width: 23px;
     }
+
+    .be-active-h3 {
+        font-size: 50px;
+        margin-top: 145px;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        margin-top: 0;
+        font-size: 18px;
+        padding-right: 30px;
+    }
+
 }
 
 @media (min-width: 961px) and (max-width: 1920px) {
@@ -505,6 +506,18 @@
         width: 100px;
         height: 100px;
     }
+
+    .be-active-h3 {
+        padding-left: 40px;
+    }
+
+    .text {
+        padding-left: 40px;
+    }
+
+    .sportsman-item:nth-child(even) .text {
+        width: 50%;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -515,6 +528,7 @@
     .h1 {
         font-size: 70px;
     }
+
 
 }
 
@@ -542,6 +556,14 @@
         right: -70px;
         width: 140px;
         height: 140px;
+    }
+
+    .be-active-h3 {
+        padding-left: 60px;
+    }
+
+    .actions .text {
+        padding-left: 60px;
     }
 }
 
