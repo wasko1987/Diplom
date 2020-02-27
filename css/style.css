@@ -332,6 +332,8 @@
     .number {
         bottom: -15px;
         left: 20px;
+        width: 70px;
+        height: 70px;
     }
 
     .be-active-h3 {
@@ -340,6 +342,15 @@
     
     .download-text {
         font-size: 15px;
+    }
+
+    .prefix {
+        font-size: 9px;
+    }
+    
+    .prefix:after {
+        top: 13px;
+        width: 13px;
     }
 }
 
@@ -399,6 +410,7 @@
     .number {
         top: 150px;
         right: -35px;
+
     }
 
     .element-text {
@@ -436,12 +448,13 @@
         font-size: 50px;
         margin-top: 145px;
         margin-bottom: 10px;
-        padding-left: 20px;
+        padding-left: 40px;
     }
 
     .text {
         margin-top: 0;
-        padding-left: 20px;
+        padding-left: 40px;
+        padding-right: 15px;
         font-size: 18px;
     }
     .paddiing-left {
@@ -463,6 +476,15 @@
     .second {
         max-width: 900px; 
     }
+
+    .prefix {
+        font-size: 20px;
+    }
+    
+    .prefix:after {
+        top: 23px;
+        width: 23px;
+    }
 }
 
 @media (min-width: 961px) and (max-width: 1920px) {
@@ -483,6 +505,11 @@
         width: 800px;
         margin-top: 0;
     }
+    .number {
+        right: -50px;
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -493,6 +520,7 @@
     .h1 {
         font-size: 70px;
     }
+
 }
 
 @media (min-width: 1920px) {
@@ -513,6 +541,12 @@
         width: 600px;   
         margin-left: auto;    
         margin-right: 50px;
+    }
+
+    .number {
+        right: -70px;
+        width: 140px;
+        height: 140px;
     }
 }
 
@@ -653,7 +687,6 @@ a {
 .prefix {
     vertical-align: super;
     color: #000;
-    font-size: 9px;
     position: relative;
     margin-right: 7px;
 
@@ -661,10 +694,8 @@ a {
 
 .prefix:after {
     position: absolute;
-    top: 13px;
     content: '';
     display: block;
-    width: 11px;
     height: 4px;
     border-radius: 2px;
     background-color: #765ebc;
@@ -720,8 +751,6 @@ img {
 
 .number {
     position: absolute;
-    width: 70px;
-    height: 70px;
     background-color: #5e42b0;
     display: flex;
 }
