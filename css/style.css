@@ -543,8 +543,7 @@
         .actions .content-element:nth-child(even) .element-text .be-active-h3 {   
         width: 600px;   
         margin-left: auto;    
-        margin-right: 60px;
-        
+        margin-right: 60px;      
     }
 
     .actions .content-element:nth-child(even) .element-text .text {   
