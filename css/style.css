@@ -344,14 +344,7 @@
         font-size: 15px;
     }
 
-    .prefix {
-        font-size: 9px;
-    }
-    
-    .prefix:after {
-        top: 13px;
-        width: 13px;
-    }
+
 }
 
 @media (min-width: 961px) {
@@ -477,12 +470,14 @@
         max-width: 900px; 
     }
 
-    .prefix {
+    
+
+    .actions .prefix {
         font-size: 20px;
     }
     
-    .prefix:after {
-        top: 23px;
+    .actions .prefix:after {
+        top: 25px;
         width: 23px;
     }
 }
@@ -689,10 +684,13 @@ a {
     color: #000;
     position: relative;
     margin-right: 7px;
+    font-size: 9px;
 
 }
 
 .prefix:after {
+    top: 13px;
+    width: 11px;
     position: absolute;
     content: '';
     display: block;
