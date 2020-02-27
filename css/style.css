@@ -242,7 +242,7 @@
     }
 
     .footer-buttons {
-        margin-top: 40vh;
+        margin-top: 25vh;
     }
 
     .footer-logo-button {
@@ -272,7 +272,7 @@
 
     .h1-wrapper {
         width: 85%;
-        margin-top: 2vh;
+        margin-top: 20vh;
     }
 
     .h1 {
@@ -294,7 +294,7 @@
     }
 
     .footer-buttons {
-        margin-top: 20vh;
+        margin-top: 25vh;
     }
 
     .footer-logo-button {
@@ -314,7 +314,7 @@
     .footer-logo-text {
         flex-direction: row;
         justify-content: center;
-        margin-top: 10vh;
+        margin-top: 15vh;
     }
 
     .download {
@@ -344,6 +344,10 @@
 }
 
 @media (min-width: 961px) {
+
+    .h1 {
+        font-size: 65px;
+    }
 
     .h4 {
         margin-top: 10px;
@@ -376,14 +380,20 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    
     
     .content-element {
         display: flex;
         width: 100%;
     }
+
+    .active-wrapper {
+        width: 50%;
+    }
     
     .actions-img {
-        width: calc(50vw - 8px);
+        width: 100%;
     }
 
     .number {
@@ -392,8 +402,8 @@
     }
 
     .element-text {
-        width: 50vw;
-        padding-left: 30px;
+        width: 50%;
+    
         
     }
 
@@ -426,10 +436,12 @@
         font-size: 50px;
         margin-top: 145px;
         margin-bottom: 10px;
+        padding-left: 20px;
     }
 
     .text {
         margin-top: 0;
+        padding-left: 20px;
         font-size: 18px;
     }
     .paddiing-left {
@@ -445,11 +457,11 @@
     }
 
     .h1-wrapper {
-        width: 65%;
+        width: 80%;
         margin-top: 20vh;
     }
     .second {
-        max-width: 600px; 
+        max-width: 900px; 
     }
 }
 
@@ -460,7 +472,7 @@
     }
 
     .h1 {
-        font-size: 50px;
+        font-size: 65px;
     }
 
     .first {
@@ -468,21 +480,25 @@
     }
 
     .second {
-        width: 600px;
+        width: 800px;
         margin-top: 0;
     }
 }
 
 @media (min-width: 1400px) {
     .h1-wrapper {
-        width: 50%;
+        width: 80%;
+    }
+
+    .h1 {
+        font-size: 70px;
     }
 }
 
 @media (min-width: 1920px) {
 
     .h1-wrapper {
-        width: 900px;
+        width: 1532px;
         margin-left: auto;
         margin-right: auto;
     }
